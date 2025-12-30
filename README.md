@@ -18,10 +18,14 @@ may **not exactly reproduce** the paper results.
 
 ## Results
 
-The following table summarizes **RMSE** and **ME (mean error)** on the **test dataset (year 2023)** for baseline forecasts
-(MSM, MSMG) and our post-processing models (1grid/around feature settings with different feature-selection options).
+The following table summarizes **RMSE** and **ME (mean error)** on the **test dataset (2023)** for the baseline forecasts
+(MSM and MSMG) and our post-processing models.  
+Models labeled **1grid-** and **around-** are our **LightGBM-based** approaches using nearest-grid and surrounding-grid inputs,
+respectively, with different feature-selection settings.
 
-![Table 6: RMSE and ME for test data](assets/RMSE_for_test_data.png)
+<p align="center">
+  <img src="assets/RMSE_for_test_data.png" alt="Table 6: RMSE and ME for test data" width="66%">
+</p>
 ---
 
 ## Data
