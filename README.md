@@ -46,9 +46,6 @@ and prepare it in the same file/column format expected by this notebook.
 - **MSMG (MSM Guidance)**: provided by JMA and distributed by Japan Meteorological Business Support Center (JMBSC)
 - **Station observations (teacher data)**: JMA observations including 3-hour accumulated precipitation, hourly temperature, and wind speed
 
-In the notebook:
-- switch `DATA_MODE = "real"` (or adjust `MSM_DIR` / `MSMG_DIR`) to point to your real-data folders.
-
 ---
 
 ## Dataset / task summary (paper settings)
