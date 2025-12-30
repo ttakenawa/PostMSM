@@ -16,8 +16,7 @@ Due to data licensing restrictions, some distributed datasets are **NOT** the or
 and are provided as **synthetic/derived substitutes**. Therefore, running this notebook with the shared data
 may **not exactly reproduce** the paper results.
 
-## Results
-
+### Results
 The following table summarizes **RMSE** and **ME (mean error)** on the **test dataset (2023)** for the baseline forecasts
 (MSM and MSMG) and our post-processing models.  
 Models labeled **1grid-** and **around-** are our **LightGBM-based** approaches using nearest-grid and surrounding-grid inputs,
@@ -26,6 +25,7 @@ respectively, with different feature-selection settings.
 <p align="center">
   <img src="assets/RMSE_for_test_data.png" alt="Table 6: RMSE and ME for test data" width="66%">
 </p>
+
 ---
 
 ## Data
