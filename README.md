@@ -3,9 +3,7 @@
 Authors: Kazuma Iwase, Tomoyuki Takenawa  
 Affiliation: Tokyo University of Marine Science and Technology (TUMSAT)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github/ttakenawa/PostMSM/blob/main/gbm_main_public.ipynb
-)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ttakenawa/PostMSM/blob/main/gbm_main_public.ipynb)
 
 ---
 
@@ -17,7 +15,6 @@ of JMA MSM forecasts (precipitation, temperature, wind speed) and comparisons wi
 Due to data licensing restrictions, some distributed datasets are **NOT** the original (real) MSM/MSMG data
 and are provided as **synthetic/derived substitutes**. Therefore, running this notebook with the shared data
 may **not exactly reproduce** the paper results.
-
 
 ---
 
@@ -68,17 +65,21 @@ Missing values:
   https://colab.research.google.com/github/ttakenawa/PostMSM/blob/main/gbm_main_public.ipynb
 
 ### How to run on Google Colaboratory
-
 1. Open the above shared link of the public synthetic dataset in your browser. The folder will appear in Google Drive under **Shared with me**.
 2. In **Shared with me**, right-click the folder `data_public` → **Organize** → **Add shortcut to Drive**.
 3. Choose the destination folder (example):
    - `My Drive → Colab Notebooks → PostMSM`
 4. Click **Add shortcut**.
 
-This creates a shortcut named `data_public` at (for exmample):
+This creates a shortcut named `data_public` at (for example):
 - `/content/drive/MyDrive/PostMSM/data_public`
 
-You can access the directory from Colab by mounting Drive and set ROOT to that path.
+You can access the directory from Colab by mounting Drive and set `ROOT` to that path, e.g.:
+
+```python
+from pathlib import Path
+ROOT = Path("/content/drive/MyDrive/PostMSM/data_public")
+```
 
 > Note: A shortcut is only a pointer.  
 > If you need an independent copy, copy the folder (≈13 GB) into My Drive instead of using a shortcut.
@@ -105,5 +106,4 @@ Citation information will be added after submission/publication (and/or arXiv po
 ---
 
 ## Contact
-- For questions or issues, pleasmaile open a GitHub Issue in this repository or mail to takenawa@kaiyodai.ac.jp
-
+- For questions or issues, please open a GitHub Issue in this repository or mail to takenawa@kaiyodai.ac.jp
