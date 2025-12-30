@@ -94,9 +94,12 @@ This notebook can be RAM-heavy depending on the number of stations and lead time
 ---
 
 ## License / Terms
-- **Code**: (choose a license, e.g. MIT / Apache-2.0)
-- **Data**: The shared dataset includes synthetic/derived substitutes plus real station observations.  
-  Original MSM/MSMG data are not redistributed in this repository due to licensing restrictions.
+- **Code**: MIT License (see `LICENSE`)
+- **Data**:
+  - **Synthetic/derived inputs (created by us)**: MIT License
+  - **Station observations (JMA)**: provided under JMA Terms of Use (Public Data License v1.0-based). Please follow the original terms and include proper attribution.
+  - **Original MSM/MSMG**: not redistributed in this repository due to licensing restrictions.
+
 
 ---
 
