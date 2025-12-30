@@ -94,7 +94,7 @@ This notebook can be RAM-heavy depending on the number of stations and lead time
 ---
 
 ## License / Terms
-- **Code**: MIT License (see `LICENSE`)
+- **Code**: MIT License (see LICENSE)
 - **Data**:
   - **Synthetic/derived inputs (created by us)**: MIT License
   - **Station observations (JMA)**: provided under JMA Terms of Use (Public Data License v1.0-based). Please follow the original terms and include proper attribution.
