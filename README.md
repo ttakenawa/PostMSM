@@ -67,7 +67,7 @@ Missing values:
 - `gbm_main_public.ipynb` — main Colab demo notebook  
   https://colab.research.google.com/github/ttakenawa/PostMSM/blob/main/gbm_main_public.ipynb
 
-### How to run on Google 
+### How to run on Google Colaboratory
 
 1. Open the above shared link of the public synthetic dataset in your browser. The folder will appear in Google Drive under **Shared with me**.
 2. In **Shared with me**, right-click the folder `data_public` → **Organize** → **Add shortcut to Drive**.
@@ -75,15 +75,14 @@ Missing values:
    - `My Drive → Colab Notebooks → PostMSM`
 4. Click **Add shortcut**.
 
-This creates a shortcut named `data_public` at:
+This creates a shortcut named `data_public` at (for exmample):
 - `/content/drive/MyDrive/PostMSM/data_public`
 
-You can access it from Colab by mounting Drive and set ROOT to that path.
+You can access the directory from Colab by mounting Drive and set ROOT to that path.
 
 > Note: A shortcut is only a pointer.  
 > If you need an independent copy, copy the folder (≈13 GB) into My Drive instead of using a shortcut.
 
----
 ### Memory / Colab note
 This notebook can be RAM-heavy depending on the number of stations and lead times you load.
 
