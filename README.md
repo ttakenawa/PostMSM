@@ -18,11 +18,6 @@ Due to data licensing restrictions, some distributed datasets are **NOT** the or
 and are provided as **synthetic/derived substitutes**. Therefore, running this notebook with the shared data
 may **not exactly reproduce** the paper results.
 
----
-
-## Demo notebook
-- `gbm_main_public.ipynb` — main Colab demo notebook  
-  https://colab.research.google.com/github/ttakenawa/PostMSM/blob/main/gbm_main_public.ipynb
 
 ---
 
@@ -68,10 +63,13 @@ Missing values:
 
 ---
 
-## How to run on Google Colab
+## Demo notebook
+- `gbm_main_public.ipynb` — main Colab demo notebook  
+  https://colab.research.google.com/github/ttakenawa/PostMSM/blob/main/gbm_main_public.ipynb
 
-### 1) Use the shared data_public via a Drive shortcut (recommended)
-1. Open the shared link in your browser. The folder will appear in Google Drive under **Shared with me**.
+### How to run on Google 
+
+1. Open the above shared link of the public synthetic dataset in your browser. The folder will appear in Google Drive under **Shared with me**.
 2. In **Shared with me**, right-click the folder `data_public` → **Organize** → **Add shortcut to Drive**.
 3. Choose the destination folder (example):
    - `My Drive → Colab Notebooks → PostMSM`
@@ -80,14 +78,13 @@ Missing values:
 This creates a shortcut named `data_public` at:
 - `/content/drive/MyDrive/PostMSM/data_public`
 
+You can access it from Colab by mounting Drive and set ROOT to that path.
+
 > Note: A shortcut is only a pointer.  
 > If you need an independent copy, copy the folder (≈13 GB) into My Drive instead of using a shortcut.
 
-### 2) Mount Drive and set ROOT
-In Google Colab, mount Drive and set ROOT to that path:
-
-
-## Memory / Colab note
+---
+### Memory / Colab note
 This notebook can be RAM-heavy depending on the number of stations and lead times you load.
 
 - For reproducible runs, we recommend a high-memory runtime (≈40 GB RAM or more).
@@ -109,5 +106,5 @@ Citation information will be added after submission/publication (and/or arXiv po
 ---
 
 ## Contact
-- For questions or issues, please open a GitHub Issue in this repository.
+- For questions or issues, pleasmaile open a GitHub Issue in this repository or mail to takenawa@kaiyodai.ac.jp
 
