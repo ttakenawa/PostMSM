@@ -16,6 +16,12 @@ Due to data licensing restrictions, some distributed datasets are **NOT** the or
 and are provided as **synthetic/derived substitutes**. Therefore, running this notebook with the shared data
 may **not exactly reproduce** the paper results.
 
+## Results
+
+The following table summarizes **RMSE** and **ME (mean error)** on the **test dataset (year 2023)** for baseline forecasts
+(MSM, MSMG) and our post-processing models (1grid/around feature settings with different feature-selection options).
+
+![Table 6: RMSE and ME for test data](assets/RMSE_for_test_data.png)
 ---
 
 ## Data
