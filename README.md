@@ -3,9 +3,6 @@
 Authors: Kazuma Iwase, Tomoyuki Takenawa  
 Affiliation: Tokyo University of Marine Science and Technology (TUMSAT)
 
-[![Open Main Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ttakenawa/PostMSM/blob/main/gbm_main_public.ipynb)
-[![Open Weighted Tweedie Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ttakenawa/PostMSM/blob/main/weighted_tweedie_precip_public.ipynb)
-
 ---
 
 ## Overview
@@ -29,6 +26,7 @@ may **not exactly reproduce** the paper results.
 
 ### 1. Main non-Tweedie notebook
 Notebook: `gbm_main_public.ipynb`
+[![Open Main Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ttakenawa/PostMSM/blob/main/gbm_main_public.ipynb)
 
 This notebook demonstrates the standard LightGBM-based post-processing workflow used in our study.
 
@@ -44,6 +42,7 @@ Main comparisons:
 
 ### 2. Weighted Tweedie notebook
 Notebook: `weighted_tweedie_precip_public.ipynb`
+[![Open Weighted Tweedie Notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ttakenawa/PostMSM/blob/main/weighted_tweedie_precip_public.ipynb)
 
 This notebook demonstrates a precipitation-specific extension of the main workflow.
 
