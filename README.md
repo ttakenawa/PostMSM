@@ -70,6 +70,13 @@ respectively, with different feature-selection settings.
   <img src="assets/RMSE_for_test_data.png" alt="Table 6: RMSE and ME for test data" width="66%">
 </p>
 
+The next figure summarizes **event-based verification for precipitation**.
+It highlights threat score and related precipitation-event performance comparisons across methods.
+
+<p align="center">
+  <img src="assets/Table_8_event-base_verification_precipitation.png" alt="Table 8: Event-based verification for precipitation" width="66%">
+</p>
+
 ### Note on precipitation-focused Tweedie experiments
 In addition to the standard regression setting, this repository also includes a precipitation-focused
 weighted Tweedie formulation. This extension is intended to better emphasize rainfall events and to improve
