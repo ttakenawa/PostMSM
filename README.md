@@ -74,7 +74,7 @@ The next figure summarizes **event-based verification for precipitation**.
 It highlights threat score and related precipitation-event performance comparisons across methods.
 
 <p align="center">
-  <img src="assets/Table_8_event-base_verification_precipitation.png" alt="Table 8: Event-based verification for precipitation" width="66%">
+  <img src="assets/event-base_verification_precipitation.png" alt="Table 8: Event-based verification for precipitation" width="66%">
 </p>
 
 ### Note on precipitation-focused Tweedie experiments
