@@ -176,7 +176,7 @@ If you use this repository, please cite our paper:
 > Kazuma Iwase and Tomoyuki Takenawa,  
 > “Improvements to the post-processing of weather forecasts using machine learning and feature selection,”  
 > *Atmospheric Research*, in press, 2026.  
-> arXiv:2604.19340. https://doi.org/10.48550/arXiv.2604.19340
+> [arXiv:2604.19340](https://arxiv.org/abs/2604.19340).
 
 ---
 
